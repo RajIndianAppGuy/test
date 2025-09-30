@@ -5,7 +5,7 @@ export async function checkEmbaddingExists(url) {
     const { data, error } = await supabase
       .from("ms_text_info")
       .select("*")
-      .eq("url", url);
+      .eq("url", url)
 
     console.log(data);
 
