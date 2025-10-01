@@ -8,6 +8,7 @@ export async function checkEmbaddingExists(url) {
       .select("*")
       .eq("url", url)
 
+    
     console.log(data)
 
     
