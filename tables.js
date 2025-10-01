@@ -7,6 +7,7 @@ export async function checkEmbaddingExists(url) {
       .from("ms_text_info")
       .select("*")
       .eq("url", url)
+    
 
     console.log(data)
 
