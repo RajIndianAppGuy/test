@@ -1,5 +1,6 @@
 import { supabase } from "../utils/SupabaseClient.js";
 
+
 export async function checkEmbaddingExists(url) {
   
   try {
